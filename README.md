@@ -10,15 +10,24 @@ Open video-production skills and reusable workflows for **Film & CG** creators i
 
 ## Current Film & CG skill collection
 
-| Skill / workflow | What it does |
-| --- | --- |
-| Greybox Previz | Builds fast 3D greybox previews for shot planning and iteration. |
-| AI Video Generator | Generates videos from creative prompts and references. |
-| Game Trailer | Produces trailer concepts and edits for games. |
-| Promo Video Generator | Creates concise promotional video assets. |
-| Motion Generation | Generates and explores character or scene motion. |
-| Comic Storyboard | Turns a story or script into a structured, shootable storyboard. |
-| Depth-Guided Motion Transfer | Transfers motion with depth guidance for stronger spatial consistency. |
+The production Film & CG feed currently contains 12 entries:
+
+| Skill / workflow | Card ID | What it does |
+| --- | --- | --- |
+| Greybox Previz | `greybox-previz` | Builds fast 3D greybox previews for shot planning and iteration. |
+| Comic Storyboard | `script-to-comic-storyboard` | Turns a story or script into a structured, shootable storyboard. |
+| Depth-Guided Motion Transfer | `depth-guided-motion-transfer` | Transfers motion with depth guidance for stronger spatial consistency. |
+| Promo Video | `promo-video-generator` | Creates concise promotional video assets. |
+| Game Trailer | `game-trailer` | Produces trailer concepts and edits for games. |
+| Brand Story Video | `brand-story-video` | Develops brand narratives into cinematic video structures. |
+| Authentic Camcorder Vlog | `authentic-camcorder-vlog` | Creates handheld, lived-in camcorder-style vlog videos. |
+| Weekly Outfit Transitions | `weekly-outfit-transitions` | Produces structured weekly outfit-change transition videos. |
+| K-POP One-Take Reveal | `kpop-one-take-reveal` | Creates multi-character K-POP reveal videos as one continuous shot. |
+| Real Estate Video | `real-estate-video` | Produces property-focused cinematic marketing videos. |
+| AI Video Generator | `video-generation` | Generates videos from creative prompts and references. |
+| Motion Generation | `motion-generation` | Generates and explores character or scene motion. |
+
+Inventory verified against the public production Workspace feed on **2026-07-30**.
 
 > This repository is the public sharing home for Seele's video skills. Skill packages will be added progressively after documentation, dependency, asset-rights, and security review.
 
