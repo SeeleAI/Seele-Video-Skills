@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>grey-box shot</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #888; overflow: hidden; }
+    #stage { display: block; width: 100vw; height: 100vh; }
+    /* In record mode the canvas is sized exactly to w×h and letterboxed; in preview it fills the window. */
+    body.record #stage { width: auto; height: auto; margin: 0 auto; }
+    #hint { position: fixed; left: 10px; bottom: 8px; font: 12px system-ui, sans-serif; color: #333; opacity: .6; }
+  </style>
+  <!-- Three.js as ES module from CDN. No bundler: this is a static page the recorder opens directly. -->
+  <script type="importmap">
+  { "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <canvas id="stage"></canvas>
+  <div id="hint">grey-box preview — open with ?record=1 to capture</div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

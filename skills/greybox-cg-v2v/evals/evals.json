@@ -1,0 +1,33 @@
+{
+  "skill_name": "greybox-cg-v2v",
+  "evals": [
+    {
+      "id": 0,
+      "name": "rooftop-cyberpunk-pushin",
+      "prompt": "我用白模做了个想法：一个人在雨夜的天台上走向栏杆然后停下，镜头从背后缓缓推近。帮我把它做成赛博朋克霓虹风格的视频。",
+      "expected_output": "A grey-box Three.js shot of a figure walking to a rooftop railing and stopping, camera slow push-in from behind, recorded to a 16:9 mp4 with a clear silhouette; plus a greybox_manifest.json in greybox_ready_for_review containing distinct greybox_threejs_preview and greybox_video artifacts, approval pending, final_render.allowed=false, and no V2V call until the current revision is explicitly approved.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "car-ghibli-vertical",
+      "prompt": "做一个 9:16 竖屏的：一辆车在公路上行驶，镜头在侧面跟拍，重绘成黄昏吉卜力动画风格。",
+      "expected_output": "A grey-box Three.js shot of a car driving with a side tracking camera, recorded to a 9:16 vertical mp4; a review-ready manifest with Three.js Preview engine=threejs entrypoint=index.html urls/path revision metadata and a separate greybox_video candidate artifact. It must stop for approval and must not call V2V on ambiguous language such as '还行吧'.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "bridge-runner-japan-film",
+      "prompt": "把白模做成：一个女生在桥上奔跑、镜头从她背后跟拍，重绘成日本乡村夏天、蓝天白云、胶片质感的视频。",
+      "expected_output": "The reference shot: a figure running across a bridge, follow camera from behind, recorded to 16:9 mp4 with clear running silhouette; a review-ready manifest. If the user requests changes, create a new child revision with parent_revision_id set to the current revision and no V2V. If the user explicitly approves the current revision, the approval-gated wrapper may pass only that manifest video into V2V with a stable idempotency key.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "two-stage-approval-gate",
+      "prompt": "首轮先给我白膜预览；我说“还行吧”时不要生成成片，只有我明确说“确认当前 revision 生成最终视频”才继续。",
+      "expected_output": "The skill creates a manifest with states covering drafting_greybox, greybox_ready_for_review, revision_requested, greybox_approved, rendering_final, final_ready, failed; treats ambiguous approval as not approved; and uses run_final_v2v.py so unapproved, revision-mismatched, or video path/hash-mismatched inputs exit non-zero without calling downstream.",
+      "files": []
+    }
+  ]
+}
