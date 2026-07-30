@@ -10,24 +10,24 @@ Open video-production skills and reusable workflows for **Film & CG** creators i
 
 ## Current Film & CG skill collection
 
-The production Film & CG feed currently contains 12 entries:
+The production Film & CG feed currently contains 12 entries. Each image below is the corresponding live Workspace Card cover, archived here as a stable case preview.
 
-| Skill / workflow | Card ID | What it does |
-| --- | --- | --- |
-| Greybox Previz | `greybox-previz` | Builds fast 3D greybox previews for shot planning and iteration. |
-| Comic Storyboard | `script-to-comic-storyboard` | Turns a story or script into a structured, shootable storyboard. |
-| Depth-Guided Motion Transfer | `depth-guided-motion-transfer` | Transfers motion with depth guidance for stronger spatial consistency. |
-| Promo Video | `promo-video-generator` | Creates concise promotional video assets. |
-| Game Trailer | `game-trailer` | Produces trailer concepts and edits for games. |
-| Brand Story Video | `brand-story-video` | Develops brand narratives into cinematic video structures. |
-| Authentic Camcorder Vlog | `authentic-camcorder-vlog` | Creates handheld, lived-in camcorder-style vlog videos. |
-| Weekly Outfit Transitions | `weekly-outfit-transitions` | Produces structured weekly outfit-change transition videos. |
-| K-POP One-Take Reveal | `kpop-one-take-reveal` | Creates multi-character K-POP reveal videos as one continuous shot. |
-| Real Estate Video | `real-estate-video` | Produces property-focused cinematic marketing videos. |
-| AI Video Generator | `video-generation` | Generates videos from creative prompts and references. |
-| Motion Generation | `motion-generation` | Generates and explores character or scene motion. |
+| Case preview | Skill / workflow | Card ID | What it does |
+| --- | --- | --- | --- |
+| <img src="assets/cases/greybox-previz.jpg" width="240" alt="Greybox Previz case cover"> | Greybox Previz | `greybox-previz` | Builds fast 3D greybox previews for shot planning and iteration. |
+| <img src="assets/cases/script-to-comic-storyboard.webp" width="240" alt="Comic Storyboard case cover"> | Comic Storyboard | `script-to-comic-storyboard` | Turns a story or script into a structured, shootable storyboard. |
+| <img src="assets/cases/depth-guided-motion-transfer.webp" width="240" alt="Depth-Guided Motion Transfer case cover"> | Depth-Guided Motion Transfer | `depth-guided-motion-transfer` | Transfers motion with depth guidance for stronger spatial consistency. |
+| <img src="assets/cases/promo-video-generator.jpg" width="240" alt="Promo Video case cover"> | Promo Video | `promo-video-generator` | Creates concise promotional video assets. |
+| <img src="assets/cases/game-trailer.png" width="240" alt="Game Trailer case cover"> | Game Trailer | `game-trailer` | Produces trailer concepts and edits for games. |
+| <img src="assets/cases/brand-story-video.jpg" width="240" alt="Brand Story Video case cover"> | Brand Story Video | `brand-story-video` | Develops brand narratives into cinematic video structures. |
+| <img src="assets/cases/authentic-camcorder-vlog.jpg" width="240" alt="Authentic Camcorder Vlog case cover"> | Authentic Camcorder Vlog | `authentic-camcorder-vlog` | Creates handheld, lived-in camcorder-style vlog videos. |
+| <img src="assets/cases/weekly-outfit-transitions.webp" width="240" alt="Weekly Outfit Transitions case cover"> | Weekly Outfit Transitions | `weekly-outfit-transitions` | Produces structured weekly outfit-change transition videos. |
+| <img src="assets/cases/kpop-one-take-reveal.png" width="240" alt="K-POP One-Take Reveal case cover"> | K-POP One-Take Reveal | `kpop-one-take-reveal` | Creates multi-character K-POP reveal videos as one continuous shot. |
+| <img src="assets/cases/real-estate-video.jpg" width="240" alt="Real Estate Video case cover"> | Real Estate Video | `real-estate-video` | Produces property-focused cinematic marketing videos. |
+| <img src="assets/cases/video-generation.jpg" width="240" alt="AI Video Generator case cover"> | AI Video Generator | `video-generation` | Generates videos from creative prompts and references. |
+| <img src="assets/cases/motion-generation.jpg" width="240" alt="Motion Generation case cover"> | Motion Generation | `motion-generation` | Generates and explores character or scene motion. |
 
-Inventory verified against the public production Workspace feed on **2026-07-30**.
+Inventory and cover sources were verified against the public production Workspace feed on **2026-07-30**. Original source URLs and SHA-256 checksums are recorded in [`assets/cases/sources.json`](assets/cases/sources.json).
 
 > This repository is the public sharing home for Seele's video skills. Skill packages will be added progressively after documentation, dependency, asset-rights, and security review.
 

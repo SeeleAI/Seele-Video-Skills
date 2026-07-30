@@ -1,0 +1,102 @@
+{
+  "verifiedAt": "2026-07-30",
+  "feed": "https://www.seeles.ai/api/v1/app/workspace/card/feed?size=200",
+  "items": [
+    {
+      "cardId": "greybox-previz",
+      "title": "Greybox Previz",
+      "source": "https://static.seeles.ai/media/seele_agent/workspace/starters/greybox-previz-simple-mannequin-80f94384f638.jpg",
+      "path": "assets/cases/greybox-previz.jpg",
+      "bytes": 255557,
+      "sha256": "80f94384f6383e272c918d43cbedc4c6d6be3dabffce4cd07df37ba9f0685029"
+    },
+    {
+      "cardId": "script-to-comic-storyboard",
+      "title": "Comic Storyboard",
+      "source": "https://static.seeles.ai/media/seele_agent/workspace/game-index-guide/script-to-comic-storyboard.webp",
+      "path": "assets/cases/script-to-comic-storyboard.webp",
+      "bytes": 280380,
+      "sha256": "145ee1e61ed0e543a02dd137e86061470b66cdf200f82211e106dc0b69463ed6"
+    },
+    {
+      "cardId": "depth-guided-motion-transfer",
+      "title": "Depth-Guided Motion Transfer",
+      "source": "https://static.seeles.ai/media/seele_agent/workspace/game-index-guide/depth-guided-motion-transfer.webp",
+      "path": "assets/cases/depth-guided-motion-transfer.webp",
+      "bytes": 67692,
+      "sha256": "c34bbc24aef86399e2a0152bf085950be1111e47c214e43de4123e01847672a6"
+    },
+    {
+      "cardId": "promo-video-generator",
+      "title": "Promo Video",
+      "source": "https://static.seeles.ai/media/seele_agent/workspace/starters/promo-video-generator-streaming-96af5eab54ab.jpg",
+      "path": "assets/cases/promo-video-generator.jpg",
+      "bytes": 321737,
+      "sha256": "96af5eab54ab9edacf9df6e871ffab9edc67a5838cb9308ecc8fff0553dc6a33"
+    },
+    {
+      "cardId": "game-trailer",
+      "title": "Game Trailer",
+      "source": "https://static.seeles.ai/media/seele_agent/workspace/starters/game-trailer-techno-thriller-b6d72f2d2d13.png",
+      "path": "assets/cases/game-trailer.png",
+      "bytes": 2764219,
+      "sha256": "b6d72f2d2d13131244e06a0ec852fe34a6b1347b70682aecffbd6d08b5d595fa"
+    },
+    {
+      "cardId": "brand-story-video",
+      "title": "Brand Story Video",
+      "source": "https://static.seeles.ai/media/seele_agent/workspace/game-index-guide/brand-story-video-cover-16x10-v3.jpg",
+      "path": "assets/cases/brand-story-video.jpg",
+      "bytes": 436101,
+      "sha256": "788fd78378f357240ce9e24eae58a5922cf72b9d3171ca2c422ffde70a804041"
+    },
+    {
+      "cardId": "authentic-camcorder-vlog",
+      "title": "Authentic Camcorder Vlog",
+      "source": "https://static.seeles.ai/media/seele_agent/workspace/starters/authentic-camcorder-vlog/2026/07/29/camcorder-vlog-65eb5dd10550.jpg",
+      "path": "assets/cases/authentic-camcorder-vlog.jpg",
+      "bytes": 970363,
+      "sha256": "65eb5dd10550d36eccbdf295bd50f7b197919a7fba6dc266faab48488147def8"
+    },
+    {
+      "cardId": "weekly-outfit-transitions",
+      "title": "Weekly Outfit Transitions",
+      "source": "https://www.seeles.ai/workspace-feed/generated/weekly-outfit-transitions-gpt-image-v2.webp",
+      "path": "assets/cases/weekly-outfit-transitions.webp",
+      "bytes": 220430,
+      "sha256": "6faa944921a556588a3827ece59064a02a86be12a7b96312cac27674185896bd"
+    },
+    {
+      "cardId": "kpop-one-take-reveal",
+      "title": "K-POP One-Take Reveal",
+      "source": "https://www.seeles.ai/workspace-feed/generated/kpop-one-take-cover.png",
+      "path": "assets/cases/kpop-one-take-reveal.png",
+      "bytes": 2050841,
+      "sha256": "7c0764b2db5e93ec16716297117167ee5980172a39075167ca769513f14e9a75"
+    },
+    {
+      "cardId": "real-estate-video",
+      "title": "Real Estate Video",
+      "source": "https://static.seeles.ai/media/seele_agent/workspace/game-index-guide/real-estate-video-cover-16x10-f249c12f81f6.jpg",
+      "path": "assets/cases/real-estate-video.jpg",
+      "bytes": 741078,
+      "sha256": "f249c12f81f6dda8477b4b5a32b48e7e2f60af00eb8c286d6f4ddfe12d157c6c"
+    },
+    {
+      "cardId": "video-generation",
+      "title": "AI Video Generator",
+      "source": "https://static.seeles.ai/media/seele_agent/workspace/starters/video-generation-cinematic-544d967c810a.jpg",
+      "path": "assets/cases/video-generation.jpg",
+      "bytes": 451917,
+      "sha256": "544d967c810a51638640b3346d153e05476847e1441767455d999eaa0d598c5d"
+    },
+    {
+      "cardId": "motion-generation",
+      "title": "Motion Generation",
+      "source": "https://static.seeles.ai/media/seele_agent/workspace/starters/motion-generation-cinematic-79472745f823.jpg",
+      "path": "assets/cases/motion-generation.jpg",
+      "bytes": 335253,
+      "sha256": "79472745f82307a8874f3b35e52954fd215fb5929563879cc1a5a09cf05fd923"
+    }
+  ]
+}
